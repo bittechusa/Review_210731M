@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 245350225,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser",
+            "match": {
+              "location": "StepDefination.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22919,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "nevigate to site",
+            "match": {
+              "location": "StepDefination.nevigate_to_site()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Buy a shirt",
+        "description": "",
+        "id": "buy-a-men-product;buy-a-shirt;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24328,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will click on men menu",
+            "match": {
+              "location": "StepDefination.user_will_click_on_men_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1536619,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will choose 3 shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefination.user_will_choose_shirt(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20768,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will checkout those product",
+            "match": {
+              "location": "StepDefination.user_will_checkout_those_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19555,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user will submit all necessary information",
+            "match": {
+              "location": "StepDefination.user_will_submit_all_necessary_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21727,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user will submit the order",
+            "match": {
+              "location": "StepDefination.user_will_submit_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16504,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify successfull massage for order",
+            "match": {
+              "location": "StepDefination.verify_successfull_massage_for_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33902,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser",
+            "match": {
+              "location": "StepDefination.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14409,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "nevigate to site",
+            "match": {
+              "location": "StepDefination.nevigate_to_site()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Buy a shirt",
+        "description": "",
+        "id": "buy-a-men-product;buy-a-shirt;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19534,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will click on men menu",
+            "match": {
+              "location": "StepDefination.user_will_click_on_men_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114613,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will choose 4 shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefination.user_will_choose_shirt(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18492,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will checkout those product",
+            "match": {
+              "location": "StepDefination.user_will_checkout_those_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16789,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user will submit all necessary information",
+            "match": {
+              "location": "StepDefination.user_will_submit_all_necessary_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17120,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user will submit the order",
+            "match": {
+              "location": "StepDefination.user_will_submit_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16402,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify successfull massage for order",
+            "match": {
+              "location": "StepDefination.verify_successfull_massage_for_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Buy a men product",
+    "description": "",
+    "id": "buy-a-men-product",
+    "keyword": "Feature",
+    "uri": "/Users/bittechconsulting/eclipse-workspace/BDDPractice/crossb.feature"
+  }
+]
